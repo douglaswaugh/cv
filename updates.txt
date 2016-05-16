@@ -1,0 +1,25 @@
+energyhelpline
+
+rest api
+
+what is it
+
+RESTful HATEOAS (level 3 on Richardson's maturity model) api exposed over http using Nancy on top of ASP.NET 4.5.
+
+what I did
+
+Involved in writing the whole api layer and integrating it with our domain.  Designed objects required to move logic previously existing in the UI in to the domain.
+
+what it is
+
+asp.net mvc 2 web application 
+price comparison engine for energy services
+numerous partner sites including guardian, asda, compare the market
+domain driven design principles with CQRS and event sourcing
+drives energyhelpline.com, internal call centre application and api
+acceptance test suite written in python robotframework
+
+things I did on the energyhelpline project
+
+Rewrote viewmodel generation, introduced automated deployments with octopus
+
