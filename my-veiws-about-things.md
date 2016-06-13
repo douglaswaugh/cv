@@ -1,3 +1,5 @@
+# my views about things
+
 ## tdd
 
 ### advantages
@@ -6,7 +8,7 @@ change the way you think from what the code does to how the code is consumed.  h
 
 ### disadvantages
 
-test maintenance can be a problem if the tests are written poorly.  Too much coupling to concrete instances in tests.  Coupling to Multiple asserts in a test.  duplication not dealt with (setting up test data with builders).  can make too many design decisions up-front if you start extracting classes too early.
+Test maintenance can be a problem if the tests are written poorly. can make too many design decisions up-front if you start extracting classes too early.
 
 ### alternatives
 
@@ -16,18 +18,23 @@ could do a lot of manual testing, but this becomes prohibitive as the applicatio
 
 arrange act assert
 one assert per test
+too much coupling to concrete instances in tests
+asserting on properties returned from mocks
 
 ### things I do that I didn't used to do
 
 listening to the tests
+keep the tests focused on exactly the thing that you want to test, that you want to show you're testing
 
-## oo
+## Object Oriented Programming
 
-believe what people (alan kay) says about the way that objects communicate being more important than how the objects do the things they're asked.  although I think it's implicit that you have to work out what each object knows about in order to work out how they communicate.
+I think my OO has improved dramatically improved since I started really paying attention to the abstractions that I am creating.  I try and increase cohesion and reduce
+
+I think I understand what people (Alan Kay) says about the way that objects communicate being more important than how the objects do the things they're asked.  Although I think it's implicit that you have to work out what each object knows about in order to work out how they communicate.
 
 ### late binding/early binding
 
-as I delve deeper in to OO I realise how difficult it is to do things in statically typed languages.  I've been doing a little bit of ruby recently, and I'm enjoying it.  no longer need to define interfaces (although still a good idea to test that objects conform to interfaces to keep your test code inline with your production code)
+As I delve deeper in to OO I realise how restrictive and verbose statically typed languages can be.  I've been doing a little bit of Ruby recently, and I'm enjoying it.  No longer need to define interfaces (although still a good idea to test that objects conform to interfaces, including test doubles, to keep your test code inline with your production code)
 
 ## functional
 
