@@ -10,7 +10,7 @@ Postal address: 8 Brighton Avenue, London, E17 7NE
 
 ## Introduction
 
-I write good quality, maintainable code focusing on delivering the highest value to the business in the shortest possible time.
+I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
 In order to do this I utilise several tools and techniques.  These include involving the business, quality assurance and developers in discussions about requirements before development starts, developing testing strategies, writing my code test-first, refactoring both test and production code as I code, and using an automated continuous integration and automated deployment pipeline.
 
