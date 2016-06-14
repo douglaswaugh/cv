@@ -26,6 +26,16 @@ asserting on properties returned from mocks
 listening to the tests
 keep the tests focused on exactly the thing that you want to test, that you want to show you're testing
 
+## xp
+
+### advantages
+
+I like many of
+
+### disadvantages
+
+### alternatives
+
 ## Object Oriented Programming
 
 I think my OO has improved dramatically improved since I started really paying attention to the abstractions that I am creating.  I try and increase cohesion and reduce
@@ -85,6 +95,8 @@ refactoring your aggregates can be a bit annoying, as events are stored as
 ### benefits
 
 help developers and business communicate.  also I like the ideas for bounded contexts.  in other words, you can put a boundary around some applications or services and not worry about what happens outside of it.  this reduces the problem space.  the opposite would be to try and create a ubiquitous language for the entire organisation.  seems quite similar to the advice David West gives in the book on Object Thinking that I'm currently reading.
+
+best used when you have domain experts.  sounds flippant, but if you don't have domain experts you probably don't need to apply DDD.3
 
 ### disadvantages
 
