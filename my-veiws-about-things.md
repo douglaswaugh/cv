@@ -1,32 +1,43 @@
-# my views about things
+my views about things
+===
 
-## tdd
+tdd
+---
 
 ### advantages
 
-change the way you think from what the code does to how the code is consumed.  has a specific refactor step to encourage thought about the design.  means the code you write has high test coverage and is always easy to test.
+* change the way you think from what the code does to how the code is consumed.  
+* has a specific refactor step to encourage thought about the design.  
+* means the code you write has high test coverage and is always easy to test.
+* can inform your design descisions
+
+  One example is the AccessControl and AccessControlWhiteList.  I wanted to be able to test the behaviour of the AccessControl, whose responsibility it was to add the Access-Control-White-List, or not, under various circumstances.  The list of allowed origins was long and I didn't want to have to duplicate each of the behaviour tests for each of the origins.
 
 ### disadvantages
 
-Test maintenance can be a problem if the tests are written poorly. can make too many design decisions up-front if you start extracting classes too early.
+* Test maintenance can be a problem if the tests are written poorly. 
+* Can make too many design decisions up-front if you start extracting classes too early.
+* Can make refactoring difficult if the tests are over-specified
 
 ### alternatives
 
-could do a lot of manual testing, but this becomes prohibitive as the application becomes more complex.  could just write unit tests after the fact, but this means you miss the refactoring step and you might write code that is hard to test.
+* could do a lot of manual testing, but this becomes prohibitive as the application becomes more complex.  
+* could just write unit tests after the fact, but this means you miss the refactoring step and you might write code that is hard to test.
 
 ### things that I used to do that I no longer do
 
-arrange act assert
+arrange act assert comments
 one assert per test
 too much coupling to concrete instances in tests
-asserting on properties returned from mocks
+asserting on properties returned from stubs
 
 ### things I do that I didn't used to do
 
 listening to the tests
 keep the tests focused on exactly the thing that you want to test, that you want to show you're testing
 
-## xp
+xp
+---
 
 ### advantages
 
