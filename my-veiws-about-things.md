@@ -11,7 +11,7 @@ tdd
 * means the code you write has high test coverage and is always easy to test.
 * can inform your design descisions
 
-  One example is the AccessControl and AccessControlWhiteList.  I wanted to be able to test the behaviour of the AccessControl, whose responsibility it was to add the Access-Control-White-List, or not, under various circumstances.  The list of allowed origins was long and I didn't want to have to duplicate each of the behaviour tests for each of the origins.
+  One recent example is the AccessControl.  My initail idea was to I wanted to be able to test the behaviour of the AccessControl, whose responsibility it was to add the Access-Control-White-List, or not, under various circumstances.  The list of allowed origins was long and I didn't want to have to duplicate each of the behaviour tests for each of the origins.  
 
 ### disadvantages
 
