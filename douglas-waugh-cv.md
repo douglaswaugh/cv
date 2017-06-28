@@ -14,21 +14,17 @@ Postal address: 8 Brighton Avenue, London, E17 7NE
 
 I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
-In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customer and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and deployment pipeline.
-
-I believe that continuous improvement is crucial, both for development teams and for myself personally, and I enjoy working in teams that have the same ethos.
+In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and deployment pipeline.
 
 Primarily I've coded in C# but I am also experienced in building single page applications in Javascript using the AngularJS.  I've written some Python and I've even started to learn a little Ruby.
 
 ### Personal Development
 
-I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book on the go (currently 'RabbitMQ in Action') and attend events in London's thriving development community.
+I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book on the go (currently 'Continuous Delivery') and attend events in London's thriving development community.
 
-I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, favouring the hands-on sessions these days over talks.  Recently I've started attending PaaS meetups, excited by the possibilities such platforms can bring to the development build and release process.  I'm also interested in machine learning and data science.
+I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, favouring the hands-on sessions these days over talks.  Recently I've started attending PaaS meetup, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
 
 I continue to use pet projects and code katas to learn new technologies and improve my technical skills.
-
-<br />
 
 ## Work Experience
 
@@ -42,15 +38,15 @@ energyhelpline.com are a medium scale (2 million comparisons per month, 1 millio
 
 After WTG I looked specifically for a company offering me freedom over my personal development process, particularly with respect to writing tests first and working in an agile manner.  energyhelpline.com fitted the bill.
 
-I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Firstly, a RESTful energy comparison and switching API, relied on by Compare The Market, and subsequently a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com).
+I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Firstly, a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and subsequently a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com).
 
 I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns.  With this knowledge, and that of object oriented design, test driven development and the REST architectural style, I acted as a de-facto lead developer for the team for the last year, providing technical solutions for the business and supporting other developers with their design and architectural decisions.  In April 2017 I was rewarded with a promotion to Tech Lead.
 
-Whilst I work at energyhelpline.com I continue to improve the speed and accuracy of development incrementally by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.
+I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.  Whilst I work at energyhelpline.com, I will continue to try and improve it further.
 
-It was never my intention to change the culture of the team, I just did the things that I thought we should be doing, tried to encourage others to do the same and, when I had the opportunity, hired people who I believed had similar values to myself.
+One of my ex-colleagues said after he'd left that he was impressed with how I changed the culture at energyhelpling.com.  It was never my intention to change the culture of the team, I just did the things that I thought we should be doing, tried to encourage others to do the same and, when I had the opportunity, hired people who I believed had similar values to myself.
 
-I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started a [tech blog](http://tech.energyhelpline.com) to improve our visibility to the development community.
+I did try and improve our recruitment.  I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog [http://tech.energyhelpline.com](http://tech.energyhelpline.com) to improve our visibility to the development community.
 
 I was lucky enough to work with some good developers at energyhelpline.com, and there is no doubt that I'm a better programmer for it.
 
@@ -77,8 +73,6 @@ During two week's unpaid work experience as a manual tester I asked for some dev
 I worked on public facing websites for big multinationals such as Triumph motorcycles, Kia cars, and Orange, using the .NET stack.  We didn't have much of a development process apart from hacking things out, but a colleague did lend me a book on XP sowing the seeds of my future development.
 
 ### Sharkbite Surf Shop, Bristol
-
-A surf shop.
 
 #### Feb 2005 - Oct 2005 : Shop Assistant to Web Developer
 
