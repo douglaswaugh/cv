@@ -32,23 +32,31 @@ I continue to use pet projects and code katas to learn new technologies and impr
 
 ## Work Experience
 
-### Energyhelpline.com, Southwark, London
+### energyhelpline.com, Southwark, London
 
-#### Jan 2011 - Present : Analyst Developer to Senior Developer
+energyhelpline.com are a medium scale (2 million comparisons per month, 1 million switches per year) price comparison site for domestic energy products.  They don't have much of a brand presence themselves but are, along with uSwitch and MoneySuperMarket, one of the big three energy comparison companies.  Compare The Market use our RESTful energy switching API and they have over 100 partners who use our comparison and switching products including major newspapers. Some 'tier 2' energy suppliers even use our services for their own websites and call centres.
 
-When I was looking for a new role after WTG I looked specifically for a company that could offer me freedom over my personal development process, particularly with respect to writing tests first and working in an agile manner.  Energyhelpline.com fitted the bill.
+#### Apr 2017 - Present : Tech Lead
+#### Apr 2014 - Apr 2017 : Senior Developer
+#### Jan 2011 - Apr 2014 : Analyst Developer
 
-I worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Firstly, a RESTful energy comparison and switching API, relied on by Compare the Market and Go Compare, and subsequently a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com).
+After WTG I looked specifically for a company offering me freedom over my personal development process, particularly with respect to writing tests first and working in an agile manner.  energyhelpline.com fitted the bill.
 
-I developed more of an understanding and appreciation for application architecture gaining experience working with the CQRS+ES architectural patterns.  With this knowledge, and that of object oriented design, test driven development and the REST architectural style, I've been acting as a de-facto lead developer for the team for the last year, supporting other developers with their design and architectural decisions.
+I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Firstly, a RESTful energy comparison and switching API, relied on by Compare The Market, and subsequently a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com).
 
-I improved the speed and accuracy of development by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.
+I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns.  With this knowledge, and that of object oriented design, test driven development and the REST architectural style, I acted as a de-facto lead developer for the team for the last year, providing technical solutions for the business and supporting other developers with their design and architectural decisions.  In April 2017 I was rewarded with a promotion to Tech Lead.
 
-I changed the culture of the team through supporting others to learn and also through recuitment.  I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started a tech blog to improve our visibility to the development community.
+Whilst I work at energyhelpline.com I continue to improve the speed and accuracy of development incrementally by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.
 
-I was lucky enough to work with some good developers at Energyhelpline.com, and there is no doubt that I'm a better programmer for it.
+It was never my intention to change the culture of the team, I just did the things that I thought we should be doing, tried to encourage others to do the same and, when I had the opportunity, hired people who I believed had similar values to myself.
+
+I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started a [tech blog](http://tech.energyhelpline.com) to improve our visibility to the development community.
+
+I was lucky enough to work with some good developers at energyhelpline.com, and there is no doubt that I'm a better programmer for it.
 
 ### WTG Technologies Ltd, Hammersmith, London
+
+WTG Technologies Ltd is a design and build agency, spun out of their parent company Cable & Wireless, with a strong focus on government clients requiring a high level security, such as the MoJ and police forces.  They provide security cleared staff and have a direct link in to some secure government networks.
 
 #### Nov 2007 - Jan 2012 : Junior C# Developer to Tech Lead
 
@@ -56,9 +64,11 @@ I worked on several projects, ending up as technical lead on a web application t
 
 I started my journey towards becoming a better, more fully engaged developer at WTG and implementing and evangelising about XP practices and techniques to improve the quality of our code and projects.  The unit tests I wrote were the first units tests I'd written and the first written on the projects I worked on.  I set up a continuous integration server, automated deployments, and tried, with limited success, to get my team mates pairing.
 
-I managed to add an element of agility to the projects I worked on, particularly POLKA, by asking for work items to be prioritised enabling more important funcationality to be deilvered sooner, and having a member of the clients team work with us at our office one day a week, increasing the speed with which we could deliver working features by reducing the lag between communication and the accuracy of our work by improving the quality of the communication between the developers and the client.
+I managed to add an element of agility to the projects I worked on, particularly POLKA, by asking for work items to be prioritised enabling more important functionality to be delivered sooner, and having a member of the clients team work with us at our office one day a week, increasing the speed with which we could deliver working features by reducing the lag between communication and the accuracy of our work by improving the quality of the communication between the developers and the client.
 
 ### E3Media Ltd, Bristol
+
+A design and build agency who, at the time I worked for them, built mainly brochure-ware websites and websites to support ad campaigns.
 
 #### Aug 2006 - Nov 2007 : Freelance Tester to Junior C# Developer
 
@@ -67,6 +77,8 @@ During two week's unpaid work experience as a manual tester I asked for some dev
 I worked on public facing websites for big multinationals such as Triumph motorcycles, Kia cars, and Orange, using the .NET stack.  We didn't have much of a development process apart from hacking things out, but a colleague did lend me a book on XP sowing the seeds of my future development.
 
 ### Sharkbite Surf Shop, Bristol
+
+A surf shop.
 
 #### Feb 2005 - Oct 2005 : Shop Assistant to Web Developer
 
