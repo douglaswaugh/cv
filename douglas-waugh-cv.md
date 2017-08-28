@@ -22,7 +22,7 @@ Primarily I've coded in C# but I am also experienced in building single page app
 
 I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book on the go (currently 'Continuous Delivery') and attend events in London's thriving development community.
 
-I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, favouring the hands-on sessions these days over talks.  Recently I've started attending PaaS meetup, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
+I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS meetup, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
 
 I continue to use pet projects and code katas to learn new technologies and improve my technical skills.
 
