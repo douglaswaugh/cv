@@ -44,7 +44,7 @@ I developed more of an understanding for application architecture gaining experi
 
 I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.  Whilst I work at energyhelpline.com, I will continue to try and improve it further.
 
-One of my ex-colleagues said after he'd left that he was impressed with how I changed the culture at energyhelpling.com.  It was never my intention to change the culture of the team, I just did the things that I thought we should be doing, tried to encourage others to do the same and, when I had the opportunity, hired people who I believed had similar values to myself.
+One of my ex-colleagues told me I'd been responsible for the change in culture at energyhelpling.com.  It was never my intention to change the culture of the team, I just did the things that I thought we should be doing, tried to encourage others to do the same and, when I had the opportunity, hired people who I believed had similar values to myself.
 
 I did try and improve our recruitment.  I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog [http://tech.energyhelpline.com](http://tech.energyhelpline.com) to improve our visibility to the development community.
 
