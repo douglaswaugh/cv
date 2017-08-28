@@ -34,7 +34,7 @@ energyhelpline.com are a medium scale (2 million comparisons per month, 1 millio
 
 #### Apr 2017 - Present : Tech Lead
 #### Apr 2014 - Apr 2017 : Senior Developer
-#### Jan 2011 - Apr 2014 : Analyst Developer
+#### Jan 2012 - Apr 2014 : Analyst Developer
 
 After WTG I looked specifically for a company offering me freedom over my personal development process, particularly with respect to writing tests first and working in an agile manner.  energyhelpline.com fitted the bill.
 
