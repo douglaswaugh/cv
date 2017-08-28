@@ -16,7 +16,7 @@ I write easy to understand, easy to change code that works.  I focus on deliveri
 
 In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and deployment pipeline.
 
-Primarily I've coded in C# but I am also experienced in building single page applications in Javascript using the AngularJS.  I've written some Python and I've even started to learn a little Ruby.
+Primarily I've coded in C# but I am also experienced in building single page applications in Javascript using AngularJS.  I've written some Python and I've even started to learn a little Ruby.
 
 ### Personal Development
 
