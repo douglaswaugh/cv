@@ -1,4 +1,4 @@
-# Douglas Waugh - Senior Developer
+# Douglas Waugh - Developer
 
 ## Contact Details
 
@@ -14,15 +14,17 @@ Postal address: 8 Brighton Avenue, London, E17 7NE
 
 I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
-In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and deployment pipeline.
+In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and delivery pipeline.
 
-Primarily I've coded in C# but I am also experienced in building single page applications in Javascript using AngularJS.  I've written some Python and I've even started to learn a little Ruby.
+Primarily I've coded on the Windows stack in C# and SQL but I am also experienced in building single page applications in Javascript using AngularJS.  I've written some Python and I've even started to learn a little Ruby.
+
+I'm comfortable using the CQRS+ES architectural pattern, and have some experience working with services communicating using those events.
 
 ### Personal Development
 
 I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book on the go (currently 'Continuous Delivery') and attend events in London's thriving development community.
 
-I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS meetup, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
+I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS and Serverless meetups, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
 
 I continue to use pet projects and code katas to learn new technologies and improve my technical skills.
 
@@ -30,7 +32,7 @@ I continue to use pet projects and code katas to learn new technologies and impr
 
 ### energyhelpline.com, Southwark, London
 
-energyhelpline.com are a medium scale (2 million comparisons per month, 1 million switches per year) price comparison site for domestic energy products.  They don't have much of a brand presence themselves but are, along with uSwitch and MoneySuperMarket, one of the big three energy comparison companies.  Compare The Market use our RESTful energy switching API and they have over 100 partners who use our comparison and switching products including major newspapers. Some 'tier 2' energy suppliers even use our services for their own websites and call centres.
+energyhelpline.com are a medium scale (2 million comparisons per month, 1 million switches per year) price comparison site for domestic energy products.  They don't have much of a brand presence themselves but are, along with uSwitch and MoneySuperMarket, one of the big three energy comparison companies.  Compare The Market use our RESTful energy switching API and energyhelpline has over 100 partners who use their comparison and switching products including major newspapers. Some 'tier 2' energy suppliers even use their services for their own websites and call centres.
 
 #### Apr 2017 - Present : Tech Lead
 #### Apr 2014 - Apr 2017 : Senior Developer
@@ -38,9 +40,9 @@ energyhelpline.com are a medium scale (2 million comparisons per month, 1 millio
 
 After WTG I looked specifically for a company offering me freedom over my personal development process, particularly with respect to writing tests first and working in an agile manner.  energyhelpline.com fitted the bill.
 
-I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Firstly, a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and subsequently a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com).
+I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Amongst other things a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com) which I ended up leading.
 
-I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns.  With this knowledge, and that of object oriented design, test driven development and the REST architectural style, I acted as a de-facto lead developer whilst the team was without a Tech Lead, providing technical solutions for the business and supporting other developers with their design and architectural decisions.  In April 2017 I was rewarded with an official promotion to Tech Lead.
+I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns spanning multiple services that the energyhelpline code base is built with. With this knowledge, and that of object oriented design, test driven development and the REST architectural style, I acted as a de-facto lead developer whilst the team was without a Tech Lead, providing technical solutions for the business and supporting other developers with their design and architectural decisions.  In April 2017 I was rewarded with an official promotion to Tech Lead.
 
 I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.  Whilst I work at energyhelpline.com, I will continue to try and improve it further.
 
