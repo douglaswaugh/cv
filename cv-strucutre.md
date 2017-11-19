@@ -12,4 +12,4 @@ teaching more junior developers TDD, object oriented design,
 building systems using CQRS and Event Sourcing
 implementing automated build pipelines with teamcity and octopus
 pair programming
-breaking down work to incrementally deliver the maximum value in the shortest possible time
+breaking down features to incrementally deliver the maximum value in the shortest possible time
