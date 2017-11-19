@@ -22,11 +22,9 @@ I'm comfortable using the CQRS+ES architectural pattern, and have some experienc
 
 ### Personal Development
 
-I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book on the go (currently 'Continuous Delivery') and attend events in London's thriving development community.
+I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book (currently 'Hiring the best knowledge workers, techies and nerds by Johanna Rothman') and a couple of pet projects to play with on the go.
 
-I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS and Serverless meetups, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
-
-I continue to use pet projects and code katas to learn new technologies and improve my technical skills.
+I also enjoy attending events in London's thriving development community. I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS and Serverless meetups, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
 
 ## Work Experience
 
@@ -38,17 +36,13 @@ energyhelpline.com are a medium scale (2 million comparisons per month, 1 millio
 #### Apr 2014 - Apr 2017 : Senior Developer
 #### Jan 2012 - Apr 2014 : Analyst Developer
 
-After WTG I looked specifically for a company offering me freedom over my personal development process, particularly with respect to writing tests first and working in an agile manner.  energyhelpline.com fitted the bill.
-
 I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Amongst other things a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com) which I ended up leading.
 
-I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns spanning multiple services that the energyhelpline code base is built with. With this knowledge, and that of object oriented design, test driven development and the REST architectural style, I acted as a de-facto lead developer whilst the team was without a Tech Lead, providing technical solutions for the business and supporting other developers with their design and architectural decisions.  In April 2017 I was rewarded with an official promotion to Tech Lead.
+I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns spanning multiple services that the energyhelpline code base is built with.
 
-I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, continuously improving the deployment pipeline, and developing testing strategies.  Whilst I work at energyhelpline.com, I will continue to try and improve it further.
+I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, working to continuously improve the deployment pipeline, and developing testing strategies.
 
-One of my ex-colleagues told me I'd been responsible for the change in culture at energyhelpling.com.  It was never my intention to change the culture of the team, I just did the things that I thought we should be doing, tried to encourage others to do the same and, when I had the opportunity, hired people who I believed had similar values to myself.
-
-I did try and improve our recruitment.  I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog [http://tech.energyhelpline.com](http://tech.energyhelpline.com) to improve our visibility to the development community.
+To improve our recruitment I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog [http://tech.energyhelpline.com](http://tech.energyhelpline.com) to improve our visibility to the development community.
 
 I was lucky enough to work with some good developers at energyhelpline.com, and there is no doubt that I'm a better programmer for it.
 
