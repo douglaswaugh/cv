@@ -22,11 +22,12 @@ In order to do this I utilise several tools and techniques.  These include maint
 
 ### Things I Can Do
 
-Primarily I've coded on the Windows stack in C# and SQL. I am also experienced in building single page applications in JavaScript using AngularJS.
-
-I have experience of building RESTful APIs to Richardson Maturity Level 3 at energyhelpline.
-
-I'm comfortable using the CQRS+Event Sourcing architectural pattern, and have some experience working with services communicating using those events.
+* Full-stack development on the Microsoft stack using ASP.NET and SQL
+* Build single page applications in JavaScript using AngularJS
+* Design and build RESTful APIs to Richardson Maturity Level 3 at energyhelpline
+* Apply the CQRS+Event Sourcing architectural pattern
+* Design and bulid services communicating asynchronously using events
+* Using schemaless databases such as those used as event stores
 
 ### Personal Development
 
