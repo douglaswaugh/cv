@@ -78,7 +78,7 @@ I worked on public facing websites for big multinationals such as Triumph motorc
 
 #### Feb 2005 - Oct 2005 : Shop Assistant to Web Developer
 
-I managed to negotiate a day a week out of the shop to design and build a small e-commerce site in Classic ASP.  This gave me my first taste of production development and enough skills to land some work experience at E3Media.
+Given a day a week to design and build a small e-commerce site in Classic ASP.  This gave me my first taste of production development and enough skills to land some work experience at E3Media.
 
 ## In My Own Time
 
