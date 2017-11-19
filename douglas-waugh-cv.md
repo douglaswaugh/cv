@@ -78,7 +78,7 @@ I managed to negotiate a day a week out of the shop to design and build a small 
 
 ## In My Own Time
 
-When I'm not staring at a screen I'm fairly active.  I do a bit of skateboarding even though I'm old enough to know better, some very amateur surfing, and I'm currently the captain of Coolhurst's 7th men's tennis team, looking forward to playing in Middlesex East Division 6 Summer League this summer, after four straight promotions.
+When I'm not staring at a screen I'm fairly active.  I do a bit of skateboarding even though I'm old enough to know better, some very amateur surfing, and I'm currently the captain of Coolhurst's 7th men's tennis team, looking forward to playing in Middlesex East Division 6 Summer League next summer, after four straight promotions.
 
 ## Security Clearance
 
