@@ -18,17 +18,21 @@ github: https://github.com/douglaswaugh
 
 I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
-In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and delivery pipeline.
+In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, breaking down features to incrementally release vertical slices of functionality to deliver maximum value in the shortest possible time, developing testing strategies, following the test driven development practice, refactoring both test and production code, using an automated continuous integration and delivery pipeline, and using pair programming to effectively help whole teams to learn from each other.
 
 ### Things I Can Do
 
-Primarily I've coded on the Windows stack in C# and SQL but I am also experienced in building single page applications in JavaScript using AngularJS.  I've written some Python and I've even started to learn a little Ruby.  I use git for version control.
+Primarily I've coded on the Windows stack in C# and SQL. I am also experienced in building single page applications in JavaScript using AngularJS.
 
-I'm comfortable using the CQRS+ES architectural pattern, and have some experience working with services communicating using those events.
+I have experience of building RESTful APIs to Richardson Maturity Level 3 at energyhelpline.
+
+I'm comfortable using the CQRS+Event Sourcing architectural pattern, and have some experience working with services communicating using those events.
 
 ### Personal Development
 
 I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book (currently 'Hiring the best knowledge workers, techies and nerds by Johanna Rothman') and a couple of pet projects to play with on the go.
+
+My focus is generally on what I consider to be the fundamentals of programming, rather than particular languages or frameworks.
 
 I also enjoy attending events in London's thriving development community. I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS and Serverless meetups, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
 
