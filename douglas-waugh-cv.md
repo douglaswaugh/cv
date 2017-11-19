@@ -18,7 +18,7 @@ github: https://github.com/douglaswaugh
 
 I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
-In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, breaking down features to incrementally release vertical slices of functionality to deliver maximum value in the shortest possible time, developing testing strategies, following the test driven development practice, refactoring both test and production code, using an automated continuous integration and delivery pipeline, and using pair programming to effectively help whole teams to learn from each other.
+In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, breaking down features to incrementally releasable vertical slices of functionality, developing testing strategies, following the test driven development practice, refactoring both test and production code, using an automated continuous integration and delivery pipeline, and using pair programming to effectively help whole teams to learn from each other.
 
 ### Things I Can Do
 
