@@ -95,3 +95,7 @@ University of Bristol (2003 - 2004) MSc Computer Science
 Liverpool John Moores (1997 - 2000) BA (hons.) Business Administration
 
 The Woodroffe School, Lyme Regis (1992 - 1997) A-Levels and GCSEs
+
+## References
+
+References available on request.
