@@ -16,6 +16,8 @@ I write easy to understand, easy to change code that works.  I focus on deliveri
 
 In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, building and releasing vertical slices incrementally, developing testing strategies, writing my code test-first, refactoring both test and production code, and using an automated continuous integration and delivery pipeline.
 
+### Things I Can Do
+
 Primarily I've coded on the Windows stack in C# and SQL but I am also experienced in building single page applications in JavaScript using AngularJS.  I've written some Python and I've even started to learn a little Ruby.  I use git for version control.
 
 I'm comfortable using the CQRS+ES architectural pattern, and have some experience working with services communicating using those events.
