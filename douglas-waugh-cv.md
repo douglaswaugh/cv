@@ -32,7 +32,7 @@ I continue to use pet projects and code katas to learn new technologies and impr
 
 ### energyhelpline.com, Southwark, London
 
-energyhelpline.com are a medium scale (2 million comparisons per month, 1 million switches per year) price comparison site for domestic energy products.  They don't have much of a brand presence themselves but are, along with uSwitch and MoneySuperMarket, one of the big three energy comparison companies.  Compare The Market use our RESTful energy switching API and energyhelpline has over 100 partners who use their comparison and switching products including major newspapers. Some 'tier 2' energy suppliers even use their services for their own websites and call centres.
+energyhelpline.com are a medium scale (2 million comparisons per month, 1 million switches per year) price comparison site for domestic energy products.  They don't have much of a brand presence themselves but are, along with uSwitch and MoneySuperMarket, one of the big three energy comparison companies.  Compare The Market use their RESTful energy switching API and energyhelpline has over 100 partners who use their comparison and switching products including major newspapers. Some 'tier 2' energy suppliers even use their services for their own websites and call centres.
 
 #### Apr 2017 - Present : Tech Lead
 #### Apr 2014 - Apr 2017 : Senior Developer
