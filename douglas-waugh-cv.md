@@ -8,6 +8,10 @@ Email address: douglas.waugh.e3@gmail.com
 
 Postal address: 8 Brighton Avenue, London, E17 7NE
 
+LinkedIn: https://www.linkedin.com/in/douglaswaugh/
+
+github: https://github.com/douglaswaugh
+
 ## Introduction
 
 ### Development Methodology
