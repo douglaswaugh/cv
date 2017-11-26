@@ -32,9 +32,9 @@ In order to do this I utilise several tools and techniques.  These include maint
 
 ### Personal Development
 
-I am committed to my own personal development and I find there are so many interesting subjects within the industry.  I've usually got a technical book (currently 'Hiring the best knowledge workers, techies and nerds by Johanna Rothman') and a couple of pet projects to play with on the go.
+I am committed to my own personal development and I find there are many subjects within the industry that I find interesting.  I've usually got a technical book (currently 'Hiring the best knowledge workers, techies and nerds by Johanna Rothman') and a couple of pet projects to play with on the go.
 
-My focus is generally on what I consider to be the fundamentals of programming, rather than particular languages or frameworks.
+My focus for my personal development is generally on what I consider to be the fundamentals of programming, rather than particular languages or frameworks.  This enables me to pick up new languages and tools with relative ease.
 
 I also enjoy attending events in London's thriving development community. I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS and Serverless meetups, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.
 
