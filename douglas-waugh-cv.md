@@ -24,10 +24,11 @@ In order to do this I utilise several tools and techniques.  These include maint
 
 * Full-stack development on the Microsoft stack using ASP.NET and SQL
 * Build single page applications in JavaScript using AngularJS
-* Design and build RESTful APIs to Richardson Maturity Level 3 at energyhelpline
+* Design and build RESTful APIs to Richardson Maturity Level 3
 * Apply the CQRS+Event Sourcing architectural pattern
-* Design and bulid services communicating asynchronously using events
+* Design and bulid services communicating asynchronously with events
 * Using schemaless databases such as those used as event stores
+* Design and implement automated test stratgies from full-stack to unit levels
 
 ### Personal Development
 
