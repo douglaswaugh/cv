@@ -12,15 +12,13 @@ LinkedIn: https://www.linkedin.com/in/douglaswaugh/
 
 github: https://github.com/douglaswaugh
 
-## Introduction
-
-### Development Methodology
+## Development Methodology
 
 I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
 In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, breaking down features to incrementally releasable vertical slices of functionality, developing testing strategies, following the test driven development practice, refactoring both test and production code, using an automated continuous integration and delivery pipeline, and using pair programming to effectively help whole teams to learn from each other.
 
-### Things I Can Do
+## Things I Can Do
 
 * Full-stack development on the Microsoft stack using ASP.NET and SQL
 * Build single page applications in JavaScript using AngularJS
@@ -30,7 +28,7 @@ In order to do this I utilise several tools and techniques.  These include maint
 * Using schemaless databases such as those used as event stores
 * Design and implement automated test stratgies from full-stack to unit levels
 
-### Personal Development
+## Personal Development
 
 I am committed to my own personal development and I find there are many subjects within the industry that I find interesting.  I've usually got a technical book (currently 'Hiring the best knowledge workers, techies and nerds by Johanna Rothman') and a couple of pet projects to play with on the go.
 
