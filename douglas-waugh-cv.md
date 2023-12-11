@@ -1,36 +1,31 @@
-# Douglas Waugh - Developer
+# Douglas Waugh - Developer/Tech Lead
 
-## Contact Details
-
-Mobile phone number: 07863546306
-
-Email address: douglas.waugh.e3@gmail.com
-
-Postal address: 8 Brighton Avenue, London, E17 7NE
-
-LinkedIn: https://www.linkedin.com/in/douglaswaugh/
-
-github: https://github.com/douglaswaugh
+07863546306  
+douglas.waugh.e3@gmail.com  
+8 Brighton Avenue, London, E17 7NE  
+https://www.linkedin.com/in/douglaswaugh/  
+https://github.com/douglaswaugh
 
 ## Development Methodology
 
 I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.
 
-In order to do this I utilise several tools and techniques.  These include maintaining a dialog with the customers and quality assurers throughout the development process, breaking down features to incrementally releasable vertical slices of functionality, developing testing strategies, following the test driven development practice, refactoring both test and production code, using an automated continuous integration and delivery pipeline, and using pair programming to effectively help whole teams to learn from each other.
+In order to do this I utilise several tools and techniques.  Testing, and test driven development specifically, is fundamental to my approach to make sure the software does what I think it does. Maintaining a dialog with my customers and quality assurers throughout the development process makes sure the software is useful and the understanding of how it works shared.  Building and releasing vertical slices of functionality as features incrementally delivers business value as quickly as possible. Using an automated continuous integration and deployment pipeline ensures consistent and reliable deployments.
 
 ## Things I Can Do
 
-* Full-stack development on the Microsoft stack using ASP.NET and SQL
-* Build single page applications in JavaScript using AngularJS
+* Full-stack Microsoft development
+* Single page application development in JavaScript using AngularJS
 * Design and build RESTful APIs to Richardson Maturity Level 3
-* Apply the CQRS+Event Sourcing architectural pattern
-* Design and bulid services communicating asynchronously with events
-* Using schemaless databases such as those used as event stores
-* Design and implement automated test stratgies from full-stack to unit levels
+* Architect systems using the CQRS+Event Sourcing architectural pattern
+* Architect systems as a series of asynchronously communicating services
+* Use schemaless databases such as those used as event stores
+* Design and implement automated test strategies from full-stack to unit levels
+* Management, process improvement and mentoring
 
 ## Personal Development
 
-I am committed to my own personal development and I find there are many subjects within the industry that I find interesting.  I've usually got a technical book (currently 'Hiring the best knowledge workers, techies and nerds by Johanna Rothman') and a couple of pet projects to play with on the go.
+I am committed to my own personal development and I find there are many subjects within the industry that I find interesting.  I've usually got a technical book (currently 'Practical Object Oriented Design in Ruby by Sandi Metz') and a couple of pet projects to play with on the go.
 
 My focus for my personal development is generally on what I consider to be the fundamentals of programming, rather than particular languages or frameworks.  This enables me to pick up new languages and tools with relative ease.
 
@@ -46,13 +41,13 @@ energyhelpline.com are a medium scale (2 million comparisons per month, 1 millio
 #### Apr 2014 - Apr 2017 : Senior Developer
 #### Jan 2012 - Apr 2014 : Analyst Developer
 
-I have worked on and delivered some of energyhelpline's most important and successful projects over the last few years.  Amongst other things a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and a rebuild of our own publicly facing site to use that API using AngularJS, [www.energyhelpline.com](https://www.energyhelpline.com) which I ended up leading.
+I have worked on and led some of energyhelpline's most important and successful projects over the last few years.  Amongst other things a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and a rebuild of our own publicly facing site to use that API using AngularJS, www.energyhelpline.com, a project which I led.
 
 I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns spanning multiple services that the energyhelpline code base is built with.
 
 I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, working to continuously improve the deployment pipeline, and developing testing strategies.
 
-To improve our recruitment I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog [http://tech.energyhelpline.com](http://tech.energyhelpline.com) to improve our visibility to the development community.
+To improve our recruitment I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog tech.energyhelpline.com to improve our visibility to the development community.
 
 I was lucky enough to work with some good developers at energyhelpline.com, and there is no doubt that I'm a better programmer for it.
 
@@ -66,7 +61,9 @@ I worked on several projects, ending up as technical lead on a web application t
 
 I started my journey towards becoming a better, more fully engaged developer at WTG and implementing and evangelising about XP practices and techniques to improve the quality of our code and projects.  The unit tests I wrote were the first units tests I'd written and the first written on the projects I worked on.  I set up a continuous integration server, automated deployments, and tried, with limited success, to get my team mates pairing.
 
-I managed to add an element of agility to the projects I worked on, particularly POLKA, by asking for work items to be prioritised enabling more important functionality to be delivered sooner, and having a member of the clients team work with us at our office one day a week, increasing the speed with which we could deliver working features by reducing the lag between communication and the accuracy of our work by improving the quality of the communication between the developers and the client.
+I managed to add an element of agility to the projects I worked on, particularly POLKA, by asking for work items to be prioritised enabling more important functionality to be delivered sooner, and having a member of the clients team work with us at our office one day a week, increasing the speed and accuracy of our work by improving the communication between the developers and the client.
+
+<div class="page"/>
 
 ### E3Media Ltd, Bristol
 
@@ -82,7 +79,7 @@ I worked on public facing websites for big multinationals such as Triumph motorc
 
 #### Feb 2005 - Oct 2005 : Shop Assistant to Web Developer
 
-Given a day a week to design and build a small e-commerce site in Classic ASP.  This gave me my first taste of production development and enough skills to land some work experience at E3Media.
+Given a day a week to design and build a small e-commerce site in Classic ASP.  This gave me my first taste of production development and enough skills to land some work experience at E3Media.  This was also where I started to take my personal development seriously.
 
 ## In My Own Time
 

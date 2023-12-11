@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #A31515;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+</style>
+
+<style>
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+  padding: .5rem;
+  line-height: 1.25;
+  overflow-x: scroll;
+}
+
+a,
+a:visited {
+  color: #3498db;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2980b9;
+}
+
+.modest-no-decoration {
+  text-decoration: none;
+}
+
+html {
+  font-size: 9px;
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.85;
+}
+
+p,
+.modest-p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+h1,
+.modest-h1,
+h2,
+.modest-h2,
+h3,
+.modest-h3,
+h4,
+.modest-h4 {
+  margin: 1.414rem 0 .5rem;
+  font-weight: inherit;
+  line-height: 1.42;
+}
+
+h1,
+.modest-h1 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+h2,
+.modest-h2 {
+  font-size: 1.2rem;
+}
+
+h3,
+.modest-h3 {
+  font-size: 1.15rem;
+}
+
+h4,
+.modest-h4 {
+  font-size: 1.1rem;
+}
+
+h5,
+.modest-h5 {
+  font-size: 1.05rem;
+}
+
+h6,
+.modest-h6 {
+  font-size: 1rem;
+}
+
+small,
+.modest-small {
+  font-size: .707em;
+}
+
+/* https://github.com/mrmrs/fluidity */
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 48rem;
+  line-height: 1.45;
+  padding: .25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arimo, Helvetica, sans-serif;
+}
+
+h1,{
+  border-bottom: 2px solid #fafafa;
+  margin-bottom: 1.15rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+blockquote {
+  border-left: 8px solid #fafafa;
+  padding: 1rem;
+}
+
+pre,
+code {
+  background-color: #fafafa;
+}
+
+ul, li {
+  font-size: 9px;
+}
+
+a {
+  color: #444;
+}
+
+</style>
+
+</head>
+<body>
+<h1>Douglas Waugh - Developer/Tech Lead</h1>
+<p>07863546306<br>
+douglas.waugh.e3@gmail.com<br>
+8 Brighton Avenue, London, E17 7NE<br>
+https://www.linkedin.com/in/douglaswaugh/<br>
+https://github.com/douglaswaugh</p>
+<h2>Development Methodology</h2>
+<p>I write easy to understand, easy to change code that works.  I focus on delivering the highest value to the business in the shortest possible time.</p>
+<p>In order to do this I utilise several tools and techniques.  Testing, and test driven development specifically, is fundamental to my approach to software development to make sure the software does what we think it does, as is maintaining dialog with my customers and quality assurers throughout the development process in order to make sure the software is useful and the understanding of how it works shared, building and releasing vertical slices of functionality as features incrementally to deliver business value as quickly as possible, and using an automated continuous integration and deployment pipeline to ensure consistency and reliability to my deployments.</p>
+<h2>Things I Can Do</h2>
+<ul>
+<li>Full-stack Microsoft development</li>
+<li>Single page application development in JavaScript using AngularJS</li>
+<li>Design and build RESTful APIs to Richardson Maturity Level 3</li>
+<li>Architect systems using the CQRS+Event Sourcing architectural pattern</li>
+<li>Architect systems as a series of asynchronously communicating services</li>
+<li>Use schemaless databases such as those used as event stores</li>
+<li>Design and implement automated test strategies from full-stack to unit levels</li>
+<li>Management, process improvement and mentoring</li>
+</ul>
+<h2>Personal Development</h2>
+<p>I am committed to my own personal development and I find there are many subjects within the industry that I find interesting.  I've usually got a technical book (currently 'Practical Object Oriented Design in Ruby by Sandi Metz') and a couple of pet projects to play with on the go.</p>
+<p>My focus for my personal development is generally on what I consider to be the fundamentals of programming, rather than particular languages or frameworks.  This enables me to pick up new languages and tools with relative ease.</p>
+<p>I also enjoy attending events in London's thriving development community. I've been a regular attendee of XProLo meetup, it's predecessor Extreme Tuesday Club and the associated conference XPDay as well as the London Software Craftsmanship meetups, particularly those of a practical nature.  Recently I've started attending PaaS and Serverless meetups, excited by the possibilities such platforms can bring to the development build and release process, and the London Continuous Delivery meetup.  I'm also interested in machine learning and data science.</p>
+<h2>Work Experience</h2>
+<h3>energyhelpline.com, Southwark, London</h3>
+<p>energyhelpline.com are a medium scale (2 million comparisons per month, 1 million switches per year) price comparison site for domestic energy products.  They don't have much of a brand presence themselves but are, along with uSwitch and MoneySuperMarket, one of the big three energy comparison companies.  Compare The Market use their RESTful energy switching API and energyhelpline has over 100 partners who use their comparison and switching products including major newspapers.</p>
+<h4>Apr 2017 - Present : Tech Lead</h4>
+<h4>Apr 2014 - Apr 2017 : Senior Developer</h4>
+<h4>Jan 2012 - Apr 2014 : Analyst Developer</h4>
+<p>I have worked on and led some of energyhelpline's most important and successful projects over the last few years.  Amongst other things a Richardson Maturity Model Level 3 RESTful energy comparison and switching API, relied on by Compare The Market, and a rebuild of our own publicly facing site to use that API using AngularJS, https://www.energyhelpline.com, a project which I led.</p>
+<p>I developed more of an understanding for application architecture gaining experience working with the CQRS+ES architectural patterns spanning multiple services that the energyhelpline code base is built with.</p>
+<p>I have improved the speed and accuracy of our development by cultivating a truly test driven culture within the team, introducing automated deployments, working to continuously improve the deployment pipeline, and developing testing strategies.</p>
+<p>To improve our recruitment I brought a new recruiter on board who understood our needs, I changed the messaging in our job specifications, got the team to silicon milkroundabout, and started and contributed to the tech blog http://tech.energyhelpline.com to improve our visibility to the development community.</p>
+<p>I was lucky enough to work with some good developers at energyhelpline.com, and there is no doubt that I'm a better programmer for it.</p>
+<h3>WTG Technologies Ltd, Hammersmith, London</h3>
+<p>WTG Technologies Ltd is a design and build agency, spun out of their parent company Cable &amp; Wireless, with a strong focus on government clients requiring a high level security, such as the MoJ and police forces.  They provide security cleared staff and have a direct link in to some secure government networks.</p>
+<h4>Nov 2007 - Jan 2012 : Junior C# Developer to Tech Lead</h4>
+<p>I worked on several projects, ending up as technical lead on a web application to aid the police with collaboration called POLKA.  I also worked on DORS, a web application to enable people who had committed driving offenses to register for training schemes, and part of a multi-million pound solution to deliver a content managed help and information site for the 2011 UK Census.</p>
+<p>I started my journey towards becoming a better, more fully engaged developer at WTG and implementing and evangelising about XP practices and techniques to improve the quality of our code and projects.  The unit tests I wrote were the first units tests I'd written and the first written on the projects I worked on.  I set up a continuous integration server, automated deployments, and tried, with limited success, to get my team mates pairing.</p>
+<p>I managed to add an element of agility to the projects I worked on, particularly POLKA, by asking for work items to be prioritised enabling more important functionality to be delivered sooner, and having a member of the clients team work with us at our office one day a week, increasing the speed and accuracy of our work by improving the communication between the developers and the client.</p>
+<h3>E3Media Ltd, Bristol</h3>
+<p>A design and build agency who, at the time I worked for them, built mainly brochure-ware websites and websites to support ad campaigns.</p>
+<h4>Aug 2006 - Nov 2007 : Freelance Tester to Junior C# Developer</h4>
+<p>During two week's unpaid work experience as a manual tester I asked for some development work, the completion of which went some way to convincing them to hire me as a developer.</p>
+<p>I worked on public facing websites for big multinationals such as Triumph motorcycles, Kia cars, and Orange, using the .NET stack.  We didn't have much of a development process apart from hacking things out, but a colleague did lend me a book on XP sowing the seeds of my future development.</p>
+<h3>Sharkbite Surf Shop, Bristol</h3>
+<h4>Feb 2005 - Oct 2005 : Shop Assistant to Web Developer</h4>
+<p>Given a day a week to design and build a small e-commerce site in Classic ASP.  This gave me my first taste of production development and enough skills to land some work experience at E3Media.  This was also where I started to take my personal development seriously.</p>
+<h2>In My Own Time</h2>
+<p>When I'm not staring at a screen I'm fairly active.  I do a bit of skateboarding even though I'm old enough to know better, some very amateur surfing, and I'm currently the captain of Coolhurst's 7th men's tennis team, looking forward to playing in Middlesex East Division 6 Summer League next summer, after four straight promotions.</p>
+<h2>Security Clearance</h2>
+<p>SC Security Clearance - Lapsed</p>
+<h2>Education</h2>
+<p>University of Bristol (2003 - 2004) MSc Computer Science</p>
+<p>Liverpool John Moores (1997 - 2000) BA (hons.) Business Administration</p>
+<p>The Woodroffe School, Lyme Regis (1992 - 1997) A-Levels and GCSEs</p>
+<h2>References</h2>
+<p>References available on request.</p>
+
+</body>
+</html>
